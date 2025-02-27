@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Marcellus&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+:root {
+    --container: #2c2638;
+    --text-primary: #e6e6e6;
+    --text-secondary: #b3b3b3;
+    --link: #6f589d;
+    --input-bg: #3c364c;
+    --placeholder: #6c6973;
+    --button: #6d54b5;
+    --button-hover: #5a29ed;
+}
+
+#login,
+#signup {
+    animation: animate 500ms ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
