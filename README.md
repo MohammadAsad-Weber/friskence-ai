@@ -1,14 +1,39 @@
 # Friskence AI - Login & Signup Page
 
 ## 📌 Project Overview
+
 This project is a **Login & Signup Page** built for Friskence AI as part of an assessment. It provides a user authentication interface with a responsive design, interactive UI, and form validation. **This is just a UI project with no backend functionality. Users can only switch between Login and Signup pages through React-Router.**
 
+## 📸 Screenshots
+
+### Desktop View
+
+#### Login Page
+
+![Desktop Login](./src/assets/screenshots/desktop-login.png)
+
+#### Signup Page
+
+![Desktop Signup](./src/assets/screenshots/desktop-signup.png)
+
+### Mobile View
+
+#### Login Page
+
+![Mobile Login](./src/assets/screenshots/mobile-login.png)
+
+#### Signup Page
+
+![Mobile Signup](./src/assets/screenshots/mobile-signup.png)
+
 ## 🛠️ Technologies Used
+
 - **Frontend:** React.js, JavaScript
 - **Styling:** Tailwind CSS
 - **Routing:** React-Router for navigation between Login and Signup pages
 
 ## 📂 Folder Structure
+
 ```
 friskence-ai-/
 │-- src/
@@ -20,6 +45,7 @@ friskence-ai-/
 ```
 
 ## ⚙️ Installation & Setup
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/MohammadAsad-Weber/friskence-ai.git
@@ -38,13 +64,16 @@ friskence-ai-/
    ```
 
 ## 🎯 Usage
+
 - Navigate to `http://localhost:3000` for the Signup page.
 - Navigate to `http://localhost:3000/login` for the Login page.
 - Users can only switch between these pages using React-Router.
 
 ## 📌 Author
+
 **Mohammad Asad**  
-[GitHub](https://github.com/MohammadAsad-Weber) | [Portfolio](https://mohammad-asad-portfolio.vercel.app/)  
+[GitHub](https://github.com/MohammadAsad-Weber) | [Portfolio](https://mohammad-asad-portfolio.vercel.app/)
 
 ## 📜 License
+
 This project is licensed under the **MIT License**.
